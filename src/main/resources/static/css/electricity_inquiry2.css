@@ -1,0 +1,19 @@
+/*
+*   @title  electricity_inquiry2
+*   @author 卜佑荣
+*   @create 2020-9-17 20:53
+*/
+
+/*去掉谷歌，火狐下的type="number"中的右边箭头*/
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none !important;
+    margin: 0;
+}
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+.block {
+    padding: 10px 0;
+}

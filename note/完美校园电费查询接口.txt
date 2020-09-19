@@ -1,0 +1,4 @@
+校区列表：http://h5cloud.17wanxiao.com:8080/CloudPayment/user/getRoom.do?payProId=1567&schoolcode=786&optype=1&areaid=0&buildid=0&unitid=0&levelid=0&businesstype=2
+栋数列表：http://h5cloud.17wanxiao.com:8080/CloudPayment/user/getRoom.do?payProId=1567&schoolcode=786&optype=2&areaid=4&buildid=0&unitid=0&levelid=0&businesstype=2
+房间列表：http://h5cloud.17wanxiao.com:8080/CloudPayment/user/getRoom.do?payProId=1567&schoolcode=786&optype=4&areaid=4&buildid=128&unitid=0&levelid=-1&businesstype=2
+余电查询：http://h5cloud.17wanxiao.com:8080/CloudPayment/user/getRoomState.do?payProId=1888&schoolcode=786&businesstype=2&roomverify=4-128-138--502

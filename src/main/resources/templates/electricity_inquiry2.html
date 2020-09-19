@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <meta charset="utf-8">
+    <title>电量查询2</title>
+    <link rel="stylesheet" type="text/css" href="../static/css/electricity_inquiry2.css" th:href="@{/css/electricity_inquiry2.css}">
+  </head>
+
+  <body>
+    <header>
+      <div class="block">
+        <a href="/index">首页</a>
+      </div>
+    </header>
+
+    <div class="block">
+      <!--校区-->
+      <div id="area"></div>
+    </div>
+
+    <div class="block">
+      <!--栋数-->
+      <input id="build" type="number" placeholder="栋数">
+    </div>
+
+    <div class="block">
+      <!--宿舍号-->
+      <input id="room" type="number" placeholder="宿舍号">
+    </div>
+
+    <div class="block">
+      <!--查询-->
+      <input type="button" value="查询" onclick="submit()">
+    </div>
+
+    <div class="block">
+      剩余电量：<span id="quantity"></span> <span id="quantityUnit"></span> <br />
+    </div>
+    <div class="block">
+      电价：<input id="price" style="width: 30px" value="0.60" /> 元 / 度 <br />
+    </div>
+    <div class="block">
+      余额：<span id="balance"></span> 元 <br />
+    </div>
+  </body>
+
+  <script src="https://cdn.staticfile.org/jquery/3.5.1/jquery.min.js"></script>
+  <script src="../static/js/electricity_inquiry2.js" th:src="@{/js/electricity_inquiry2.js}"></script>
+
+</html>
